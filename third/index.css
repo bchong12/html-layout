@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: block;
+  background-color: rgb(167, 167, 167);
+  height: 14.3vh;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+
+.blue-box {
+  height: 80%;
+  background-color: rgb(78, 109, 247);
+  width: 95px;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  box-sizing: content-box;
+}
+
+.text-box {
+  height: 28.5vh;
+  font-size: 20px;
+  position: relative;
+}
+
+#text {
+  position: absolute;
+  top: 30%;
+  left: 15px;
+}
+
+.colors {
+  height: 14.25vh;
+  width: 100%;
+  display: block;
+}
+
+#blue {
+  background-color: rgb(78, 109, 247);
+}
+
+#turqoise {
+  background-color: turquoise;
+}
+
+#green {
+  background-color: rgb(151, 216, 121);
+}
+
+#yellow {
+  background-color: rgb(247, 247, 0);
+}
