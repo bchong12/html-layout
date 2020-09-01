@@ -1,0 +1,36 @@
+.top-of-page {
+  height: 20vh;
+  width: 100%;
+  background-color: grey;
+  display: block;
+}
+
+.middle-of-page {
+  height: 80vh;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+
+.grey-left {
+  width: 15vw;
+  height: 80vh;
+  background: rgb(199, 197, 197);
+  float: left;
+}
+
+.grey-right {
+  width: 15vw;
+  height: 80vh;
+  background: rgb(199, 197, 197);
+  float: right;
+}
+
+.black {
+  width: 70%;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+  left: 15%;
+  bottom: 0px;
+}
